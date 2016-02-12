@@ -141,7 +141,6 @@ alias server='python -m SimpleHTTPServer 8000'
 alias ta='tmux attach-session -t'
 alias tl='tmux list-session'
 alias dd='cd ~/Desktop'
-alias df='cd ~/dotfiles'
 alias :q='exit'
 alias pj='cd ~/Projects'
 alias rp='cd ~/Projects/Ruby'
@@ -187,3 +186,10 @@ yap () {
 }
 
 
+inf () {
+   while :
+   do
+	sh links
+	sleep 1
+   done
+}
