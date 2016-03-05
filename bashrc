@@ -136,6 +136,8 @@ alias gu='git pull'
 alias gs='git status'
 alias gl='git log'
 alias q='exit'
+alias geth='geth --datadir "/media/Rakesh/Ethereum/.ethereum" console 2>>/media/Rakesh/Ethereum/geth.log'
+alias la='ls -la'
 
 alias server='python -m SimpleHTTPServer 8000'
 alias ta='tmux attach-session -t'
@@ -149,7 +151,7 @@ alias subs="subliminal download -l en *.*"
 alias sub="subliminal download -l en"
 alias rename-video='filebot -rename'
 alias rename-videos='filebot -rename *.*'
-alias ss='source ~/.zshrc'
+alias ss='source ~/.bashrc'
 alias tt='source ~/.tmux.conf'
 alias vv='v ~/.vimrc'
 alias c='cat'
@@ -193,3 +195,6 @@ inf () {
 	sleep 1
    done
 }
+
+export EDITOR='vim'
+
